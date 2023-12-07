@@ -18,7 +18,7 @@ public class TestTest extends Foundation {
     @Test
     public void test(){
         List<WebElement> headings = driver.findElements(By.xpath("//div[contains(@class, 'navbar-collapse')]//a | //div[contains(@class, 'navbar-collapse')]//button"));
-        List<String> words = List.of("Locations", "Ingredient Outlines", "Static Items", "Custom Items", "Shop", "Cart", "Orders",
+        List<String> words = List.of("Locations", "Ingredient Outlines", "Menu Items", "Custom Burgers", "Shop", "Cart", "Orders",
                 "Gift Cards","admin@burgerburger.com's Account", "Account Balance: ", "Logout");
 
         for (int i = 0; i < words.size(); i++){
